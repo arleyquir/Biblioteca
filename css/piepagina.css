@@ -1,0 +1,36 @@
+.pie{border: 3px solid   #21C8BC ;
+    margin:0 5%; 
+border-radius: 15px;
+height:110px;}
+.pie  {
+    padding: 30px 0px 50px;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .redes {
+    margin-left:70px;
+    margin-bottom:10px;
+  }
+  
+  .redes a {
+    display: inline-block;
+  }
+  
+  .contacto p {
+    margin: 5px 0;
+  }
+  .redes .primera {
+    width:40px;
+    height:40px;
+    margin-bottom:15px;
+    margin-left:30px;
+  }
+  .redes .segunda {
+    width:70px;
+    height:70px;
+  }

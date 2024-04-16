@@ -1,0 +1,21 @@
+.cabeza div{
+    display: flex;
+}
+.cabeza{ width:80%; 
+    height:200px;
+margin-left:10%;
+color: #21C8BC;}
+
+.persona{ 
+    margin-left:80%;
+    margin-top:-25px;
+
+}
+
+.cs{
+    margin-top: -5%;
+    margin-left:5%;
+    color: #21C8BC;
+    font-size:medium;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}

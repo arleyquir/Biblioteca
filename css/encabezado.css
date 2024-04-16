@@ -1,0 +1,112 @@
+@keyframes bounce {
+    0% { transform: scale(1); }
+    10% { transform: scale(1.4); }
+    50% { transform: scale(1); }
+}
+
+.empresa{
+    text-align: center;}
+      .mue{
+        font-size: 35px;
+        font-weight: bold;
+        margin: 0;
+        margin-left:65px;
+        animation: bounce 5s infinite;
+        text-shadow: 
+-0.5px -0.5px 0 #000,  
+ 0.5px -0.5px 0 #000,
+-0.5px  0.5px 0 #000,
+ 0.5px  0.5px 0 #000; }
+
+    .geor{
+        font-size: 35px;
+        font-weight: bold;
+        margin: 0;
+        margin-left: 67px;
+        animation: bounce 5s infinite;
+        text-shadow: 
+        -0.5px -0.5px 0 #000,  
+         0.5px -0.5px 0 #000,
+        -0.5px  0.5px 0 #000,
+         0.5px  0.5px 0 #000; }
+    
+    .encabezado{
+        margin:0 3%;
+        border-radius:15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+        border:3px solid #21C8BC ;
+        color: #21C8BC ;
+        font-family:cursive;
+
+    }
+    
+    .barradebusqueda{ 
+        text-align: center;
+        margin-top:40px;
+        margin-left:40px;
+
+    }
+    
+    nav ul {
+        list-style-type: none;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        margin-right: 40px;
+    }
+    nav ul li a {text-decoration: none;
+    font-size:20px;
+color: #21C8BC ;
+text-shadow: 
+-0.5px -0.5px 0 #000,  
+ 0.5px -0.5px 0 #000,
+-0.5px  0.5px 0 #000,
+ 0.5px  0.5px 0 #000; }
+    .lupa{
+        display: block;
+        align-items: center;
+        background-color: #21C8BC ;
+        border: 1px solid #000;
+        border-radius:13px;
+        width:400px;
+        margin-left:90px;
+        margin-top:20px;
+    }
+    .texto{
+        width: 200px;
+        padding: 8px;
+        border: none;
+        border-radius: 5px;
+        margin-right: 107px;
+        background-color:#21C8BC ;
+        border-radius:13px;
+    }
+    
+    .boton{
+        background-color: #21C8BC ;
+        color: #000;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 13px;
+        cursor: pointer;
+    }
+    .lupa{
+        text-align: right;
+        border: 1px solid #000;
+    }
+    
+    .boton{
+        background-color:#21C8BC ;
+        color: #333;
+        border: none;
+        padding: 8px 15px;
+        border-radius: 13px;
+        cursor: pointer;
+    }
+    img{ width:100px;
+    height: 150px;
+margin-right: 80px;}

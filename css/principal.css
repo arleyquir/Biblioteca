@@ -1,0 +1,114 @@
+.gr{
+    border:3px solid #21C8BC ;
+    margin: 10px 5%;
+    height:900px;
+    border-radius:15px;
+    display: flex;
+    display: grid;
+    grid-template-columns: auto auto ;}
+    
+    .iz{border:1.5px solid #21C8BC ;
+        margin: 20px 4%;
+        width:360px;
+        height:857px;
+    border-radius:0%;}
+    
+    .iz img{
+        width: 360px;
+        height: 857px;
+        opacity: 0.9;
+    }
+    
+    .der{
+        margin: 20px 1%;
+        width:760px;
+    height:850px;
+    border-radius:0%;
+    padding-left:8px;
+    padding-top: 8px;
+    display: grid;
+    grid-template-columns: auto auto auto auto ;
+    }
+    
+    .der div {
+        border:1.5px solid #21C8BC ;
+        border-radius:15px;
+        width:180px;
+        height:200px;
+    }
+    
+     .der div img {
+        width: 100px;
+        height:120px;
+        margin-left:40px;
+        margin-top:5px;
+        transition: width 0.3s, height 0.3s;
+     }
+      .der img:hover{
+        width: 110px; 
+        height: 130px; 
+      }
+    
+     .der div .i5  {
+        margin-left:40px;
+     }
+    
+     .der div .pre {
+        font-size: x-small;
+        color: #000;
+        margin-top:-10px;
+        text-align: center;
+        margin-top:5px;
+     }
+     .der div .dif1{
+        text-align: center;
+        margin-top:80px;
+        line-height:1.2;
+        font-size:normal;
+        font-weight: bold;
+        color:#000;
+        font-family:cursive;   
+     }
+    
+     .der div .dif2{
+        text-align: center;
+        margin-top:70px;
+        line-height:1.2;
+        font-size:normal;
+        font-weight: bold;
+        color:#000;
+        font-family:cursive;   
+     }
+     .der div .dif3{
+        text-align: center;
+        margin-top:80px;
+        line-height:1.2;
+        font-size:normal;
+        font-weight: bold;
+        color :#000;
+        font-family:cursive; 
+     }
+   
+     
+     .boton-compra {
+        display: inline-block;
+        padding: 8px 15px;
+        font-size: 9px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        color: #fff;
+        background-color:#000; 
+        opacity: 0.7;
+        border: none;
+        border-radius: 0%;
+        cursor: pointer;
+        text-align: center;
+        text-decoration: none;
+        transition: background-color 0.6s ease; 
+      }
+    .boton-compra{
+        margin-top:-10px;
+        margin-left:50px;
+    }
+     .boton-compra:hover {
+        background-color: #21C8BC ;}
